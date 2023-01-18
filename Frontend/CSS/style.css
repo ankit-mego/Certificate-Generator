@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* vhghbh */
+body{
+    background-color: #E6CCA9;
+}
+
+.hover-effect:hover{
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.active{
+    font-weight: bold;
+}
+
+.logo{
+    height: 70px;
+}
+
+.margin-top{
+    margin-top: 100px;
+}
+
+#header{
+    background-color: #F3F3F3;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index: 999;
+}
+
+#footer{
+    background-color: #F3F3F3;
+    position:fixed;
+    bottom:0;
+    width:100%;
+}
+
+.icon:hover{
+    color: rgb(99,102,241);
+}
+.font{
+    font-size: 20px;
+}
+@media screen and (max-width: 770px) {
+    .logo{
+        height: 50px;
+    }
+}
